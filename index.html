@@ -98,29 +98,88 @@
         <li>Job 3</li>
       </ol>
       <p>All these 3 jobs are important to make a good presentation</p>
-      <table>
+      <table border="1">
         <tr>
           <th>Job 1</th>
           <th>Job 2</th>
           <th>Job 3</th>
         </tr>
+        <tr>
+          <td>Task 1</td>
+          <td>Task 2</td>
+          <td>Task 3</td>
+        </tr>
+        <tr>
+          <td>Mission 1</td>
+          <td>Mission 2</td>
+          <td>Mission 3</td>
+        </tr>
       </table>
       <!-- Contact section -->
-      <section id="contact"></section>
+      <section id="contact">
+        <h2>Contact US</h2>
+        <form action="">
+          <label for="">First Name</label>
+          <input
+            type="text"
+            name="First Name"
+            placeholder="Type your First Name Here"
+          />
+          <br />
+          <label for="">Last Name</label>
+          <input
+            type="text"
+            name="Last Name"
+            placeholder="Type your Last Name Here"
+          />
+          <br />
+          <label for="">Date of birth</label>
+          <input type="date" name="Date of Birth" />
+          <br />
+          <label for="">Email</label>
+          <input type="email" name="Email" placeholder="Put you email" />
+          <br />
+          <label for="">Country</label>
+          <select name="Country" id="">
+            <option value="">--Please choose an option--</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+          </select>
+          <br />
+          <label for="">Your Message</label>
+          <br />
+          <textarea
+            name="Your message"
+            id=""
+            cols="50"
+            rows="10"
+            placeholder="Tape your Message"
+          ></textarea>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <!-- Aside section -->
     <aside>
+      <h3>Side bar</h3>
       <ul>
-        <li><a href="page_one.html">Page One</a></li>
-        <li><a href="page_two.html">Page Two</a></li>
-        <li><a href="page_three.html">Page Three</a></li>
+        <li><a href="page_one.html" target="_blank">Page One</a></li>
+        <li><a href="page_two.html" target="_blank">Page Two</a></li>
+        <li><a href="page_three.html" target="_blank">Page Three</a></li>
       </ul>
       <figure>
-        <img src="" alt="" />
-        <figcaption></figcaption>
+        <img src="images/image2.png" alt="Programmation" />
+        <figcaption>Programmation Full-Stack</figcaption>
       </figure>
     </aside>
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <p>
+        Made by love -- This website is the propriety of K.J. All rights
+        reserved Tunisia -- 2023 --
+      </p>
+    </footer>
   </body>
 </html>
