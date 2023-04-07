@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicone.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Add font-family from Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -19,11 +28,11 @@
     </header>
     <!-- Main Section -->
     <main>
-      <h1>All what you should know about us !</h1>
+      <h1 id="main_heading">All what you should know about us !</h1>
       <!-- About section -->
       <section id="about">
         <h2>About us</h2>
-        <img src="images/image1.png" alt="Image Code" />
+        <img class="img1" src="images/image1.png" alt="Image Code" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
           voluptates id velit laudantium porro, optio, incidunt tempora
@@ -45,7 +54,7 @@
           vitae dolor aliquid quod ad molestias repudiandae.
         </p>
       </section>
-      <hr color="red" />
+      <hr class="hr" />
       <!-- Work section -->
       <section id="work">
         <h2>Our Work say every thing</h2>
@@ -63,7 +72,7 @@
           Beatae vitae possimus nulla in quod! Veniam ratione ipsum voluptas
           alias provident?
         </p>
-        <center>
+        <center id="vid-center">
           <iframe
             width="560"
             height="315"
@@ -74,6 +83,7 @@
             allowfullscreen
           ></iframe>
         </center>
+        <hr class="hr" />
 
         <!-- Article Section -->
         <article>
@@ -91,41 +101,44 @@
             rerum, dolor veritatis?
           </p>
         </article>
-        <hr color="red" />
       </section>
+      <hr class="hr" />
+
       <!-- Resume section -->
-      <section id="resume"></section>
-      <h2>The resume</h2>
-      <p>In this part we will talk about 3 last jobs</p>
-      <ol>
-        <li>Job 1</li>
-        <li>Job 2</li>
-        <li>Job 3</li>
-      </ol>
-      <p>All these 3 jobs are important to make a good presentation</p>
-      <table border="1">
-        <tr>
-          <th>Job 1</th>
-          <th>Job 2</th>
-          <th>Job 3</th>
-        </tr>
-        <tr>
-          <td>Task 1</td>
-          <td>Task 2</td>
-          <td>Task 3</td>
-        </tr>
-        <tr>
-          <td>Mission 1</td>
-          <td>Mission 2</td>
-          <td>Mission 3</td>
-        </tr>
-      </table>
-      <hr color="red" />
+      <section id="resume">
+        <h2>The resume</h2>
+        <p>In this part we will talk about 3 last jobs</p>
+        <ol>
+          <li>Job 1</li>
+          <li>Job 2</li>
+          <li>Job 3</li>
+        </ol>
+        <p>All these 3 jobs are important to make a good presentation</p>
+        <table id="table">
+          <tr>
+            <th>Job 1</th>
+            <th>Job 2</th>
+            <th>Job 3</th>
+          </tr>
+          <tr>
+            <td>Task 1</td>
+            <td>Task 2</td>
+            <td>Task 3</td>
+          </tr>
+          <tr>
+            <td>Mission 1</td>
+            <td>Mission 2</td>
+            <td>Mission 3</td>
+          </tr>
+        </table>
+      </section>
+
+      <hr class="hr" />
 
       <!-- Contact section -->
-      <center>
-        <section id="contact">
-          <h2>Contact US</h2>
+      <section id="contact">
+        <h2>Contact US</h2>
+        <div class="form-container">
           <form action="">
             <label for="">First Name</label>
             <input
@@ -167,26 +180,11 @@
             <br />
             <button type="submit">Submit</button>
           </form>
-        </section>
-      </center>
+        </div>
+      </section>
     </main>
-    <hr color="red" />
-
-    <!-- Aside section -->
-    <aside>
-      <h3>Side bar</h3>
-      <ul>
-        <li><a href="page_one.html" target="_blank">Page One</a></li>
-        <li><a href="page_two.html" target="_blank">Page Two</a></li>
-        <li><a href="page_three.html" target="_blank">Page Three</a></li>
-      </ul>
-      <figure>
-        <img src="images/image2.png" alt="Programmation" />
-        <figcaption>Programmation Full-Stack</figcaption>
-      </figure>
-    </aside>
     <!-- Footer -->
-    <hr />
+    <hr id="footer-hr" />
 
     <footer>
       <p>

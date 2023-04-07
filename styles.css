@@ -1,0 +1,198 @@
+/* -------------------- Start Genral styling -------------------- */
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #e1e8f0;
+}
+
+/* Heading styling */
+
+#main_heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-size: 23px;
+  color: darkblue;
+  margin-bottom: 50px;
+}
+
+/* Paragraph styling */
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.hr {
+  border: solid 2px red;
+  border-radius: 1px;
+}
+
+/* -------------------- End Genral styling -------------------- */
+
+/* -------------------- Start Navbar styling -------------------- */
+
+/* Navbar styling */
+
+header {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: gainsboro;
+  margin-bottom: 150px;
+}
+nav {
+  margin-left: 140px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 100px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* -------------------- End Navbar styling -------------------- */
+
+/* Main styling */
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+/* About us styling */
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#about {
+  margin-bottom: 50px;
+}
+
+/* Work styling */
+
+#work {
+  margin-top: 50px;
+}
+
+#vid-center {
+  margin-bottom: 50px;
+}
+
+article {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Resume styling */
+#resume {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* table styling */
+#table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td,
+#table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr {
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #ddd;
+}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* Form styling */
+
+#contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Footer styling */
+
+#footer-hr {
+  border: solid 1px black;
+  border-radius: 1px;
+}
+
+footer p {
+  text-align: center;
+}
